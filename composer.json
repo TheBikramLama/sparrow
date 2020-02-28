@@ -14,7 +14,7 @@
         "php" : "^7.0",
         "guzzlehttp/guzzle": "^6.3"
     },
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
             "Thebikramlama\\Sparrow\\": "src/"
         }
