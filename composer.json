@@ -19,7 +19,7 @@
             "Thebikramlama\\Sparrow\\": "src/"
         }
     },
-    "extras": {
+    "extra": {
         "laravel": {
             "providers": [
                 "Thebikramlama\\Sparrow\\SparrowServiceProvider"
