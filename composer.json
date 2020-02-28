@@ -1,0 +1,32 @@
+{
+    "name": "thebikramlama/sparrow",
+    "description": "Laravel Package to send SMS via Sparrow SMS",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bikram Lama",
+            "email": "thebikramlama1123@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : "^7.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Thebikramlama\\Sparrow\\": "src/"
+        }
+    },
+    "extras": {
+        "laravel": {
+            "providers": [
+                "Thebikramlama\\Sparrow\\SparrowServiceProvider"
+            ],
+            "aliases": {
+                "Sparrow": "Thebikramlama\\Sparrow\\Sparrow"
+            }
+        }
+    }
+}
